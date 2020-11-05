@@ -68,3 +68,33 @@ body{
     font-size: 14px;
     font-weight: 600;
   }
+
+.container-main{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  display: flex;
+  width: 100%;
+  padding-left:100px;
+  justify-content: start;
+}
+
+.item-video{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.item-article-publish{
+  padding: 30px;
+  width: 30%;
+  border-radius: 20px;
+  background-color:  #67b54b;
+  justify-self: center;
+  margin-bottom: 80px;
+}
+
+.container-video{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;  
+}
